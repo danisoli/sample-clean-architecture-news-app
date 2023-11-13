@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sample_clean_architecture/features/daily_news/presentation/bloc/articel/remote/remote_articel_event.dart';
-import 'package:sample_clean_architecture/features/daily_news/presentation/bloc/articel/remote/remote_article_bloc.dart';
+import 'features/daily_news/presentation/bloc/articel/remote/remote_articel_event.dart';
+import 'features/daily_news/presentation/bloc/articel/remote/remote_article_bloc.dart';
 import 'config/theme/app_theme.dart';
 import 'features/daily_news/presentation/pages/home/daily_news.dart';
 

@@ -19,7 +19,7 @@ class ArticleRepositoryImpl implements ArticleRepository {
     // in order to be safe from unknown another error we use try catch
     try {
       final httpResponse = await _newsApiService.getNewsArticles(
-          apiKey: newsApiKey, country: countryQuery, category: categuryQuery);
+          apiKey: newsApiKey, country: countryQuery);
 
       if (httpResponse.response.statusCode == HttpStatus.ok) {
         return DataSuccess(httpResponse.data);
